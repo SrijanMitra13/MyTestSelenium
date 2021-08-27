@@ -23,7 +23,7 @@ public class TakeScreenshotConcept {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
 		
 		//Take screenshot and store as a file format
